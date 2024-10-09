@@ -1,0 +1,114 @@
+/* General styling for the page */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  border: 2px solid #4A90E2;
+}
+
+h1 {
+  color: #4A90E2;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.unit-select {
+  margin-bottom: 20px;
+}
+
+.unit-select label {
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+/* Spinner animation */
+.spinner {
+  display: none;
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Weather display styling */
+.weather-display, .forecast-display {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}
+
+.weather-display h2 {
+  color: #4A90E2;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.weather-display p {
+  font-size: 16px;
+}
+
+.forecast-display h3 {
+  color: #4A90E2;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.forecast-display div {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.forecast-display div strong {
+  font-size: 18px;
+  color: #4A90E2;
+}
